@@ -62,7 +62,7 @@ function game() {
     if (userPoints > computerPoints) {
         return ('User won!');
     }
-    else if (userPoints < computerPlay) {
+    else if (userPoints < computerPoints) {
         return ("Computer won!");
     }
     else {
