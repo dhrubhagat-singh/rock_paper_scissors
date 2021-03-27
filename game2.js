@@ -69,8 +69,8 @@ function game() {
             playing = playRound(playerSelection, "");
             game.appendChild(userScore);
             game.appendChild(computerScore);
-            userScore.textContent = String(userPoints);
-            computerScore.textContent = String(computerPoints);
+            userScore.textContent = "User Points: " + String(userPoints);
+            computerScore.textContent = "Computer Points: " + String(computerPoints);
 
 
             if (userPoints >= 5) {
