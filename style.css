@@ -1,0 +1,19 @@
+.container{
+    display:flex-reverse; 
+}
+
+.game{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.choices{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    width:20%;
+}
+
